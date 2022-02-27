@@ -1,0 +1,34 @@
+---
+layout: page
+title: Software Engineering
+description: Blog Posts created for Software Engineering Project subject on 2022
+permalink: /softengproject/
+background: '/images/SoftEngProject-index-image.png'
+---
+{% for post in site.categories.SoftEngProject %}
+<div class="category-content">
+<article class="post-preview">
+  <a href="{{ post.url }}">
+     <h2 class="post-title">{{ post.title }}</h2>
+     {% if post.subtitle %}
+     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+     {% else %}
+     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+     {% endif %}
+  </a>
+  <p class="post-meta">
+    Posted by
+    {% if post.author %}
+    {{ post.author }}
+    {% else %}
+    {{ site.author }}
+    {% endif %}
+    on {{ post.date | date: '%B %d, %Y' }} &middot;
+    <span class="reading-time" title="Estimated read time">
+      {% assign words = post.content | number_of_words %}
+      {% if words < 270 %} 1 min {% else %} {{ words | divided_by:135 }} mins {% endif %} read
+    </span>
+  </p>
+</article>
+</div>
+{% endfor %}

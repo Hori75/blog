@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "Test Driven Development (ignored) Main Thing"
+author: hori75
+date:   2022-02-28 13:00:00 +0700
+background: '/images/testdrivendevelopmentignoredmainthing-image.jpg'
+excerpt_separator: <!--more-->
+---
+
+(SPOILER ALERT) It's not 100% coverage.
+<!--more-->
+
+
+While learning programming and software engineering, I found this principle called "Test Driven Development".
+This principle is enforced on all assignments so me and my friends pretty much use it.
+The main problem I found is that, the assignment was about creating a blog like web so I don't really know what to test.
+That problem got cleared up when I worked on an assignment to create a proper webapp [with database].
+But, the next problem is the targetted coverage across all of my assignments are 100%.
+I felt obliged to create test for every single line of code.
+
+"Does it really used?", I wonder. So I asked my friend who has internship as a software engineer.
+
+"Nah, you just need to test if it works. If you could use unit test, use it."
+
+The main thing is, every company has its own stance about it.
+But they don't really enforce to reach 100% coverage and such.
+Also, there is an argument against Test Driven Development.
+Does Test Driven Development main principle is ignored?
+
+### Definition
+
+Test Driven Development is a principle where you create tests first before create the implementations.
+This is further elaborated (at least in my assignments) in creating `RED`, `GREEN`, and `REFACTOR` commits.
+But, **you don't have to follow this since it's only a principle not a rule.**
+ 
+![TDD commits](/images/tdd-example.png)
+
+#### RED
+
+In `RED` phase, you create skeleton objects and unit tests first in order to make the tests fail (hence it's named `RED`).
+You must not create implementation of the code, only empty class and functions are allowed.
+
+#### GREEN
+
+In `GREEN` phase, you start create the main implementations and aim to pass all tests.
+How much you need to implement it's up to you, just get the test passed or do the proper and good implementations.
+
+#### REFACTOR
+
+In `REFACTOR` phase, you could evaluate your code and refactor it when necessary.
+
+#### Repeat
+
+After all of these, you repeat the process again by creating a failing test. Repeat until the project is completed.
+
+### Advantages
+
+Test Driven Development is quite useful when you have a clear minimum acceptance criteria. 
+This will set your initial tests to be passed and you could build your test from there.
+The main advantages from this is to make sure that your code has been tested.
+The more code it covers, the lesser bug or errors you need to fix.
+
+### Main Objection about TDD
+
+The rapid phase of Test Driven Development is that you will do bad code practices in order to just fulfill the test.
+Apart from that, we could create way too many lines of code just for unit testing instead of the real implementations.
+This could get really worse when "100% coverage" is set as a requirement as it will force you to create code to test every inch of code you create.
+The main thing is that you might create more tests than needed and even create technical debts you need to pay later on.
+
+### What is Missed from TDD
+
+First of all, we need to acknowledge that code coverage has no meaningful correlation code quality.
+Coverage reports are created to detect any code flow that we left untested.
+We need to remember that unit tests are created to give confidence that the code is working properly as intended if the test passed.
+It's main purpose is to make sure others' changes don't break the flow of the program.
+The (ignored) main thing is Test Driven Development should be done to test **the code behaviours, not all the implementations**.
+
+### Conclusion
+
+Test Driven Development is useful to shape developer's habit to create test for code behaviour.
+But this often to be overlooked and oversimplified to become rules that restrict the developer itself.
+Code coverage shouldn't be the main requirement for code quality, we only need to check if there is a code flow that isn't covered yet.
+
+### Reference
+
+You could check out Kent Beck's book on [Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
+if you would like to learn more on Test Driven Development.

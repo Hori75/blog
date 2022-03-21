@@ -14,6 +14,21 @@ User Persona is used as an consideration for a designer to create effective User
 There are many sites that give user persona templates to be used either free or proprietary.
 But you should know what does a User Persona have in common.
 
+### User Centered Design and its Importance
+
+User Centered Design is a design process that focused on users.
+The process is done by understanding the context from user prespective and specify the problem and pain points in order
+to improve user experience on a product.
+That way, we could see many things often overlooked aspects regarding to usability (how it's easy to be useful) and 
+accessibilty (how it's easy to use the application).
+
+There are 4 ways UCD pays off according to David Benyon:
+- Product usage increased and reduced customer service cost
+- Reducing human error on using the product
+- The user felt more respected when using the product
+- Recognize diversity of its users for sustainable businesses
+
+
 ### What is User Persona
 
 User Persona is a preview of a specific stereotype of a user. 
@@ -75,4 +90,7 @@ Without it, we wouldn't be able to focus on the stereotypes of users your produc
 
 ### Reference
 
+[What is User Centered Design?](https://www.interaction-design.org/literature/topics/user-centered-design)
+
 [Personas from Usability.gov](https://www.usability.gov/how-to-and-tools/methods/personas.html)
+

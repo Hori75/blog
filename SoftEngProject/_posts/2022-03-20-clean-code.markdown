@@ -3,7 +3,7 @@ layout: post
 title:  "Clean Code"
 author: hori75
 date:   2022-03-20 21:00:00 +0700
-background: 'https://imgs.xkcd.com/comics/code_quality.png'
+background: '/images/code-quality.png'
 excerpt_separator: <!--more-->
 ---
 

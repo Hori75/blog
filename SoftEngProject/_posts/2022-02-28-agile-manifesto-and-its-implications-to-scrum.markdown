@@ -26,6 +26,20 @@ The values of Agile Manifesto:
 - Customer collaboration over contract negotiation
 - Responding to change over following a plan
 
+[Twelve principles of Agile Manifesto](https://agilemanifesto.org/principles.html) in short sentence:
+- Early and continuous delivery
+- Change for competitive advantage
+- Deliver working software frequently
+- Business and development team working together
+- Support team members
+- Face-to-face conversation to convey information quickly
+- Working software as measure of progress
+- Maintain constant pace for sustainable development
+- Technical exellence and good design
+- Simplicity
+- Self-organizing teams
+- Reflection at regular intervals
+
 The [Twelve principles of Agile Manifesto](https://agilemanifesto.org/principles.html) largely taught about developer should be 
 able to accept changes and create deliverables on quick pace. This means that developer should work closely with the stakeholders
 in order to quickly deliver a working feature for efficency and competitive advantage. The principles also needs a regular 
